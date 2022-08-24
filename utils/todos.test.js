@@ -28,11 +28,11 @@ const todos = [
     title: "et porro tempora",
     completed: true,
   },
-];
+]; // $MOCK
 
 const resp = {
   data: todos,
-};
+}; // $MOCK
 
 axios.get.mockImplementation(() => Promise.resolve(resp)); // $MOCK
 
